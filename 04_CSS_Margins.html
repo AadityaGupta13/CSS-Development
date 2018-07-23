@@ -5,37 +5,39 @@
     <title>CSS MARGINS</title>
     <style>
         body{
-            font-family: "Comic Sans MS",sans-serif;
+            font-family: "Microsoft YaHei UI";
+            background-color: darkgrey;
+            /*display-model: block;*/
         }
         div{
-            background-color: lightgreen;
-            width: 500px;
+            height:200px;
+            width: 30%;
+            margin:8px;
             padding: 10px;
-            margin: 10px;
-            text-align: center;
-            text-transform: uppercase;
-            border-radius: 10px;
+            background-color: darkcyan;
+            /*display: inline-block;*/
+            border: 1px solid black;
+            color:white;
         }
         p{
-            border: 2px solid orangered;
-            border-radius: 10px;
+            background-color: yellow;
+            color:red;
         }
     </style>
 </head>
 <body>
 
-<!-- MARGIN TOP -->
 <div>
     <p>margin</p>
     <p>margin</p>
-    <p>margin top</p>
+    <p style="margin-top: 80px">margin top</p>
     <p>margin</p>
 </div>
 <!-- MARGIN RIGHT -->
 <div>
     <p>margin</p>
     <p>margin</p>
-    <p>margin right</p>
+    <p style="margin-right: 80px">margin right</p>
     <p>margin</p>
 </div>
 
@@ -43,7 +45,7 @@
 <div>
     <p>margin</p>
     <p>margin</p>
-    <p>margin bottom</p>
+    <p style="margin-bottom: 80px">margin bottom</p>
     <p>margin</p>
 </div>
 
@@ -51,7 +53,7 @@
 <div>
     <p>margin</p>
     <p>margin</p>
-    <p>margin left</p>
+    <p style="margin-left: 80px">margin left</p>
     <p>margin</p>
 </div>
 
@@ -59,9 +61,8 @@
 <div>
     <p>margin</p>
     <p>margin</p>
-    <p>margin ALL</p>
+    <p style="margin: 80px">margin ALL</p>
     <p>margin</p>
 </div>
-
 </body>
 </html>
