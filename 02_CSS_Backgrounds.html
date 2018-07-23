@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Backgrounds</title>
+    <style>
+        body{
+            font-family: "Microsoft YaHei UI";
+            background-color: darkgrey;
+            background-size: cover;
+            display-model: block;
+        }
+        div{
+            height:400px;
+            width: 30%;
+            margin:8px;
+            padding: 10px;
+            display: inline-block;
+            border: 1px solid grey;
+            color:white;
+        }
+        .color{
+            background-color: steelblue;
+        }
+        .image{
+            background-image: url("img/gallery1.jpeg") ;
+        }
+        .attach{
+            background-image: url("img/gallery1.jpeg") ;
+            background-attachment: fixed;
+        }
+        .repeat{
+            background-image: url("img/ball-clip-art.jpg");
+            background-repeat: repeat;
+        }
+        .position{
+            background-image: url("img/gallery2.jpeg");
+            background-position: right;
+        }
+        .short{
+            background: darkcyan url("img/gallery1.jpeg") no-repeat scroll center ;
+        }
+    </style>
+</head>
+<body>
+    <!--Background Color-->
+    <div class="color">
+        <h2>Background Color</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias consectetur eius itaque odio quis repellendus similique tempora velit voluptates! Adipisci autem fuga fugiat, ipsam itaque iusto nisi nobis non possimus, quam repellendus totam? Earum odio quod tempora voluptas? Quae, voluptatum.</p>
+    </div>
+
+    <!--Background Image-->
+    <div class="image">
+        <h2>Background image</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dolor eaque earum expedita libero, maiores minus nobis numquam perferendis placeat quaerat quas quibusdam quod, repellendus sunt totam vero voluptas. Aperiam beatae dolor dolores eligendi inventore, non praesentium quibusdam tempora ut?</p>
+    </div>
+
+    <!--Background attachment-->
+    <div class="attach">
+        <h2>Background attachment</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur doloribus ea earum facere tempore? Blanditiis consequuntur eos eum laborum nam, odio perspiciatis rem repellendus reprehenderit sint sit tenetur voluptatibus. Amet aut cum, illum incidunt neque pariatur quae quia quis totam!</p>
+    </div>
+
+    <!--Background Repeat-->
+    <div class="repeat">
+        <h2>Background Repeat</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque eaque maxime modi nisi quibusdam, recusandae rerum voluptates! Architecto aspernatur consequuntur dolor dolore est, excepturi id numquam reprehenderit rerum saepe. Aspernatur culpa eaque impedit incidunt iure neque non, quaerat qui voluptate.</p>
+    </div>
+
+    <!--Background Position-->
+    <div class="position">
+        <h2>Background position</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias animi deserunt earum eligendi ex, facilis illo inventore iure optio placeat praesentium quae quam quo repudiandae sunt temporibus ullam ut? Adipisci at aut corporis iusto, numquam quam quos sapiente tempore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, in.</p>
+    </div>
+
+    <!--Background Shortcut-->
+    <div class="short">
+        <h2>Background short</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias animi deserunt earum eligendi ex, facilis illo inventore iure optio placeat praesentium quae quam quo repudiandae sunt temporibus ullam ut? Adipisci at aut corporis iusto, numquam quam quos sapiente tempore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, in.</p>
+    </div>
+</body>
+</html>
