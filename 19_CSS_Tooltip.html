@@ -7,14 +7,38 @@
     <link rel="stylesheet" href="bootstrap/css/font-awesome.min.css">
     <style>
         body{
-            font-family: Arial, sans-serif;
+            font-family: "Microsoft YaHei UI", sans-serif;
+        }
+        .tooltip{
+            width:135px;
+        }
+        .tooltip_btn{
+            background-color: #eee;
+            border:none;
+            padding: 20px;
+            font-size: 16px;
+            border-radius: 20px;
+        }
+        .tooltip_btn:hover{
+            background-color: #ccc;
+            border:2px solid grey;
+        }
+        .tooltip_text{
+            width:150px;
+            background-color: #aaa;
+            padding:20px 40px;
+            display:none;
+            position:absolute;
+        }
+        .tooltip:hover .tooltip_text{
+            display:block;
         }
     </style>
 </head>
 <body>
 
     <div class="tooltip">
-        <button class="tooltip_btn"><i class="fa fa-spinner fa-spin"></i> Hover Me</button>
+        <button class="tooltip_btn"><i class="fa fa-spinner"></i> Hover Me</button>
         <p class="tooltip_text">You hover on Me ?</p>
     </div>
 

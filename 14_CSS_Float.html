@@ -7,27 +7,40 @@
         body{
             font-family: Arial, sans-serif;
         }
+        div{
+            margin:5px;
+        }
         .left{
             border: 2px solid forestgreen;
             background-color: whitesmoke;
             padding: 10px;
             width: 200px;
-
+            float:left;
+            /*to float the div left*/
         }
-
         .right{
             border: 2px solid forestgreen;
             background-color: whitesmoke;
             padding: 10px;
             width: 200px;
-
+            float:right;
+            /*to float the div right*/
         }
-
         .clear{
             background-color: forestgreen;
             color: white;
             text-align: center;
             padding: 5px;
+            clear:both;
+            /*to clear the float effect*/
+        }
+        .news{
+            border: 2px solid grey;
+            padding:15px;
+            border-radius: 10px;
+        }
+        .news img{
+            float:right;
         }
     </style>
 </head>
@@ -46,7 +59,6 @@
     <div>
         <h1 class="clear">clear me</h1>
     </div>
-
     <!-- NEWS SECTION -->
     <div class="news">
         <img src="img/gallery2.jpeg" width="300" height="150">

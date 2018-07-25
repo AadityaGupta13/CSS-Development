@@ -6,16 +6,73 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="bootstrap/css/font-awesome.min.css">
     <style>
-        body{
-            font-family: Arial, sans-serif;
+        body {
+            font-family: "Microsoft YaHei UI", sans-serif;
+            font-weight: 200;
+            font-size: 1rem;
+            background: url("img/gallery3.jpeg") no-repeat fixed bottom right;
         }
-
+        .form-div{
+            border: 2px solid white;
+            border-radius:15px;
+            width:20%;
+            margin: 100px auto;
+            /*padding:50px 20px;*/
+            text-align: center;
+            background-color: rgba(150,150,150,0.5);
+        }
+        .form-div img{
+            border: 2px solid white;
+            padding: 2px;
+            margin-top: -50px;
+            height:80px;
+            width:80px;
+            border-radius: 50%;
+        }
+        .form-div h2{
+            color:white;
+        }
+        .form-div input{
+            padding:15px 20px;
+            font-size: 16px;
+            text-align: center;
+            color:white;
+            margin:10px;
+            border-style:solid;
+            border-color:cyan;
+            border-width: 0 0 2px 0;
+            background: transparent;
+            outline: none;
+        }
+        ::placeholder{
+            color:#aaa;
+        }
+        .form-div input:focus{
+            background-color:white;
+            color:blue;
+        }
+        input[type='submit']{
+            background: darkcyan;
+            color:white;
+            border:none;
+            border-radius:20px;
+        }
+        input[type='submit']:hover{
+            background: white;
+            color:blue;
+            box-shadow: 0 5px 10px cyan;
+            cursor:pointer;
+        }
+        input[type='submit']:focus{
+            box-shadow: 0 5px 10px grey;
+        }
     </style>
 </head>
 <body>
 
     <!-- Login Form -->
     <div class="form-div">
+        <img src="img/gallery1.jpeg">
         <h2>Login Here</h2>
         <form>
             <input type="text" placeholder="User Name">
